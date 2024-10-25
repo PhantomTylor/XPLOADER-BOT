@@ -28,9 +28,9 @@ global.location = process.env.GL_INFO || "Kenya, Nairobi, Kasarani" //ur locatio
 //________________________________________________________________________________________________________
 global.botname = process.env.BOT_NAME || '𝐗𝐩𝐥𝐨𝐚𝐝𝐞𝐫𝐁𝐨𝐭' //ur bot name
 //________________________________________________________________________________________________________
-global.ownernumber = process.env.SUDO || '254796180105' //ur owner number
+global.ownernumber = process.env.SUDO || '263784376126' //ur owner number
 //________________________________________________________________________________________________________
-global.ownername = process.env.SUDO_NAME || 'Tylor' //ur owner name
+global.ownername = process.env.SUDO_NAME || 'Sean' //ur owner name
 //________________________________________________________________________________________________________
 global.websitex = process.env.YT_LINK || "https://youtube.com/@heyits_tylor"
 //________________________________________________________________________________________________________
@@ -50,7 +50,7 @@ global.creator = process.env.GL_DEVS || "254796180105@s.whatsapp.net"
 //________________________________________________________________________________________________________
 global.xprefix = process.env.PREFIX || '.'
 //________________________________________________________________________________________________________
-global.premium = process.env.GL_VIP || ["254796180105"] // Premium User
+global.premium = process.env.GL_VIP || ["263784376126"] // Premium User
 //________________________________________________________________________________________________________
 global.hituet = 0
 //________________________________________________________________________________________________________
@@ -95,7 +95,7 @@ global.thumb = fs.readFileSync('./XploaderMedia/theme/Xploader.jpg')
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
     fs.unwatchFile(file)
-    console.log(chalk.redBright(`Update'${__filename}'`))
+    console.log(chalk.redBright(`Updated'${__filename}'`))
     delete require.cache[file]
     require(file)
 })
