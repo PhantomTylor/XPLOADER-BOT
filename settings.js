@@ -28,9 +28,9 @@ global.location = process.env.GL_INFO || "Kenya, Nairobi, Kasarani" //ur locatio
 //________________________________________________________________________________________________________
 global.botname = process.env.BOT_NAME || '𝐗𝐩𝐥𝐨𝐚𝐝𝐞𝐫𝐁𝐨𝐭' //ur bot name
 //________________________________________________________________________________________________________
-global.ownernumber = process.env.SUDO || '263784376126' //ur owner number
+global.ownernumber = process.env.SUDO || '254754783972' //ur owner number
 //________________________________________________________________________________________________________
-global.ownername = process.env.SUDO_NAME || 'Sean' //ur owner name
+global.ownername = process.env.SUDO_NAME || 'Tylor' //ur owner name
 //________________________________________________________________________________________________________
 global.websitex = process.env.YT_LINK || "https://youtube.com/@heyits_tylor"
 //________________________________________________________________________________________________________
@@ -46,11 +46,11 @@ global.packname = process.env.PACK_NAME || "Xploader"
 //________________________________________________________________________________________________________
 global.author = process.env.AUTHER_NAME || "Bot"
 //________________________________________________________________________________________________________
-global.creator = process.env.GL_DEVS || "254796180105@s.whatsapp.net"
+global.creator = process.env.GL_DEVS || "254754783972@s.whatsapp.net"
 //________________________________________________________________________________________________________
 global.xprefix = process.env.PREFIX || '.'
 //________________________________________________________________________________________________________
-global.premium = process.env.GL_VIP || ["263784376126"] // Premium User
+global.premium = process.env.GL_VIP || ["254754783972"] // Premium User
 //________________________________________________________________________________________________________
 global.hituet = 0
 //________________________________________________________________________________________________________
@@ -69,7 +69,7 @@ global.welcome = process.env.WELCOME_MSG || false //welcome/left in groups
 //________________________________________________________________________________________________________
 global.anticall = process.env.GL_NOCALL || false //bot blocks user when called
 //________________________________________________________________________________________________________
-global.autoswview = process.env.AUTO_STATUS_SEEN || false //auto status/story view
+global.autoswview = process.env.AUTO_STATUS_SEEN || true //auto status/story view
 //________________________________________________________________________________________________________
 global.adminevent = process.env.ANNOUNCE_MSG  || false //show promote/demote message
 //________________________________________________________________________________________________________
